@@ -1,5 +1,6 @@
 import { Component } from 'react';
-import { LoginForm } from './LoginForm/LoginForm';
+// import { LoginForm } from './LoginForm/LoginForm';
+import { ProductReviewForm } from './ProductReviewForm/ProductReviewForm';
 
 export class App extends Component {
   render(){
@@ -8,8 +9,10 @@ export class App extends Component {
   return (
     <>
     
-    <LoginForm/>
+    {/* <LoginForm/> */}
     
+    <ProductReviewForm/>
+
     </>
    
   );
